@@ -1,0 +1,67 @@
+
+html {
+  box-sizing: border-box;
+  line-height: 24px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: rgb(7, 7, 7)
+}
+
+
+
+.logo {
+
+  margin:0 auto;
+  height: 10em;
+  will-change: filter;
+  transition: filter 300ms;
+  border-radius: 30%;
+  border:none;
+  position: absolute;
+
+  
+}
+
+
+.menu {
+  background-color: #ffe787;
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  
+  
+}
+ .menu-items{
+  display:flex;
+  align-content: space-between;
+  margin-top: 20px ;
+  color: rgb(250, 250, 250);
+ position: relative;
+  
+ }
+  .menu-toggle{
+    display: none;
+  }
+  
+    
+  .menu-items a  {
+    margin: 0 3rem;
+    font-family: 'Lato', serif;
+    color:black;
+    font-weight: bold
+  }
+  
